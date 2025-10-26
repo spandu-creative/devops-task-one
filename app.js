@@ -1,9 +1,5 @@
-const express = require("express");
+const express = require('express');
 const app = express();
-
-app.get("/", (req, res) => {
-  res.send("Hello from CI/CD Pipeline using GitHub Actions and Docker!");
-});
-
-const port = process.env.PORT || 3000;
-app.listen(port, () => console.log(`App running on port ${port}`));
+const PORT = process.env.PORT || 3000;
+app.get('/', (req, res) => res.send('Hello from AWS EC2 CI/CD Pipeline!'));
+app.listen(PORT, () => console.log(`App running on port ${PORT}`));
