@@ -1,0 +1,13 @@
+# DevOps Task 1 – CI/CD with GitHub Actions
+
+## Objective
+Automate the build and deployment of a Node.js app using GitHub Actions and Docker.
+
+## Steps
+1. Created Node.js app
+2. Dockerized the app
+3. Created GitHub Actions workflow for build and push
+4. Configured secrets for DockerHub authentication
+
+## Output
+Docker image auto-pushed to DockerHub on each push to main branch.
